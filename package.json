@@ -1,0 +1,21 @@
+{
+  "name": "ohlc-utility",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha",
+    "watch": "fswatch  -r -o -l 2 coffee/ | xargs -n1 -I{} ./task.sh",
+    "compile": "coffee -o ./ -c coffee/"
+  },
+  "keywords": [],
+  "dependencies": {
+    "lodash": "^4.7.0",
+    "moment": "^2.13.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "mick-whats"
+}
